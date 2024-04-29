@@ -1,0 +1,2 @@
+web: gunicorn server.wsgi
+release: ./manage.py migrate --no-input && ./manage.py loaddata deepdive/fixtures/socialapps_prod.json

@@ -1,0 +1,45 @@
+// REPLACE THIS WITH OAUTH KEYS
+[
+    {
+        "model": "socialaccount.socialapp",
+        "pk": 1,
+        "fields": {
+            "provider": "google",
+            "name": "Google",
+            "client_id": "REDACTED",
+            "secret": "REDACTED",
+            "key": "",
+            "sites": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "socialaccount.socialapp",
+        "pk": 2,
+        "fields": {
+            "provider": "linkedin_oauth2",
+            "name": "LinkedIn",
+            "client_id": "REDACTED",
+            "secret": "REDACTED",
+            "key": "",
+            "sites": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "socialaccount.socialapp",
+        "pk": 3,
+        "fields": {
+            "provider": "github",
+            "name": "Github",
+            "client_id": "REDACTED",
+            "secret": "REDACTED",
+            "key": "",
+            "sites": [
+                1
+            ]
+        }
+    }
+]
