@@ -151,7 +151,8 @@ SIMPLE_JWT = {
 }
 
 EMAIL_BACKEND = "django_ses.SESBackend"
-DEFAULT_FROM_EMAIL = "DeepDive <support@bkdevs.io>"
+# REPLACE THIS TOO
+DEFAULT_FROM_EMAIL = "REDACTED"
 
 # REPLACE THIS
 DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
